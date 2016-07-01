@@ -8,11 +8,13 @@ import org.testng.annotations.BeforeTest;
 
 
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import utility.ConfigUtils;
 import utility.Driver;
 
+@Listeners(utility.Listners.class)
 public class LoginTest {
 	Driver browser;
 	String userName = ConfigUtils.getProperty("UserName");
@@ -32,7 +34,7 @@ public class LoginTest {
 		Assert.assertEquals(browser.driver.getTitle(), "Automate Sales", "Load the login page");
 	}
 	
-	@Test(dependsOnMethods = { "loadLoginPageTest" })
+	@Test(dependsOnMethods = { "LoadLoginTest" })
 	public void wrongCredentialsTest() throws InterruptedException {
 		browser.driver.get(baseUrl+"login");
 		Thread.sleep(3000);

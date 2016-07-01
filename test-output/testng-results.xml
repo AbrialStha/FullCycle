@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Test Default test]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in mycode.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in mycode.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in mycode.LoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44429" started-at="2016-07-01T10:03:32Z" finished-at="2016-07-01T10:04:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44429" started-at="2016-07-01T10:03:32Z" finished-at="2016-07-01T10:04:17Z">
+      <class name="mycode.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="setup" is-config="true" duration-ms="3538" started-at="2016-07-01T15:48:32Z" finished-at="2016-07-01T15:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoadLoginTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="LoadLoginTest" duration-ms="18091" started-at="2016-07-01T15:48:36Z" finished-at="2016-07-01T15:48:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in mycode.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoadLoginTest -->
+        <test-method status="PASS" signature="wrongCredentialsTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="wrongCredentialsTest" duration-ms="7813" started-at="2016-07-01T15:48:54Z" depends-on-methods="mycode.LoginTest.LoadLoginTest" finished-at="2016-07-01T15:49:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in mycode.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wrongCredentialsTest -->
+        <test-method status="PASS" signature="loginAndLogoutTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="loginAndLogoutTest" duration-ms="14954" started-at="2016-07-01T15:49:02Z" depends-on-methods="mycode.LoginTest.wrongCredentialsTest" finished-at="2016-07-01T15:49:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in mycode.LoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAndLogoutTest -->
+        <test-method status="PASS" signature="teadown()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="teadown" is-config="true" duration-ms="0" started-at="2016-07-01T15:49:17Z" finished-at="2016-07-01T15:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadown -->
+      </class> <!-- mycode.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
