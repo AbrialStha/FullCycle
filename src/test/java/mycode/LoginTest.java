@@ -62,6 +62,6 @@ public class LoginTest {
 
 	@AfterTest
 	public void teadown() {
-
+		browser.driver.quit();
 	}
 }
