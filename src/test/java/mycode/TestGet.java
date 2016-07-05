@@ -21,7 +21,7 @@ public class TestGet {
 		
 		TestRail tr = new TestRail(domain,userName,password);
 		tr.getCase(id);
-		tr.addResult(id, "5");
+		tr.addResult(id, "1");
 	}	
 	
 }

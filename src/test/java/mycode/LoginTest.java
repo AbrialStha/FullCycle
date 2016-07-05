@@ -28,14 +28,14 @@ public class LoginTest {
 	}
 	
 	@Test
-	public void LoadLoginTest() throws InterruptedException{
+	public void LoadLoginTest_1() throws InterruptedException{
 		browser.driver.get(ConfigUtils.getProperty("initialPath"));
 		Thread.sleep(4000);
 		Assert.assertEquals(browser.driver.getTitle(), "Automate Sales", "Load the login page");
 	}
 	
-	@Test(dependsOnMethods = { "LoadLoginTest" })
-	public void wrongCredentialsTest() throws InterruptedException {
+	@Test(dependsOnMethods = { "LoadLoginTest_1" })
+	public void wrongCredentialsTest_2() throws InterruptedException {
 		browser.driver.get(baseUrl+"login");
 		Thread.sleep(3000);
 		browser.driver.findElement(By.name("username")).sendKeys("wrongcredentails");;
@@ -47,8 +47,8 @@ public class LoginTest {
 		Assert.assertEquals("Username or Password is incorrect", messageStr, "Wrong Credentials Test");
 	}
 	
-	@Test(dependsOnMethods = { "wrongCredentialsTest" })
-	public void loginAndLogoutTest() throws InterruptedException {
+	@Test(dependsOnMethods = { "wrongCredentialsTest_2" })
+	public void loginAndLogoutTest_3() throws InterruptedException {
 		browser.driver.get(baseUrl+"login");
 		Thread.sleep(3000);
 		browser.driver.findElement(By.name("username")).sendKeys(userName);

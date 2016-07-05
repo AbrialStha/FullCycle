@@ -27,6 +27,7 @@ public class TestRail {
 		client.setPassword(password);
 		JSONObject c = (JSONObject) client.sendGet("get_case/"+id);
 		System.out.println(c.toString());
+//		System.out.println(c.get("title"));
 	}
 	
 	@SuppressWarnings("unchecked")

@@ -23,16 +23,16 @@
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44429" started-at="2016-07-01T10:03:32Z" finished-at="2016-07-01T10:04:17Z">
+  <suite name="Default suite" duration-ms="44484" started-at="2016-07-05T09:04:53Z" finished-at="2016-07-05T09:05:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44429" started-at="2016-07-01T10:03:32Z" finished-at="2016-07-01T10:04:17Z">
+    <test name="Default test" duration-ms="44484" started-at="2016-07-05T09:04:53Z" finished-at="2016-07-05T09:05:37Z">
       <class name="mycode.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="setup" is-config="true" duration-ms="3538" started-at="2016-07-01T15:48:32Z" finished-at="2016-07-01T15:48:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mycode.LoginTest@c038203]" name="setup" is-config="true" duration-ms="1797" started-at="2016-07-05T14:49:53Z" finished-at="2016-07-05T14:49:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoadLoginTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="LoadLoginTest" duration-ms="18091" started-at="2016-07-01T15:48:36Z" finished-at="2016-07-01T15:48:54Z">
+        <test-method status="PASS" signature="LoadLoginTest_1()[pri:0, instance:mycode.LoginTest@c038203]" name="LoadLoginTest_1" duration-ms="15414" started-at="2016-07-05T14:49:54Z" finished-at="2016-07-05T14:50:10Z">
           <reporter-output>
             <line>
               <![CDATA[Test Method resides in mycode.LoginTest]]>
@@ -41,8 +41,8 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoadLoginTest -->
-        <test-method status="PASS" signature="wrongCredentialsTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="wrongCredentialsTest" duration-ms="7813" started-at="2016-07-01T15:48:54Z" depends-on-methods="mycode.LoginTest.LoadLoginTest" finished-at="2016-07-01T15:49:02Z">
+        </test-method> <!-- LoadLoginTest_1 -->
+        <test-method status="PASS" signature="wrongCredentialsTest_2()[pri:0, instance:mycode.LoginTest@c038203]" name="wrongCredentialsTest_2" duration-ms="7778" started-at="2016-07-05T14:50:12Z" depends-on-methods="mycode.LoginTest.LoadLoginTest_1" finished-at="2016-07-05T14:50:19Z">
           <reporter-output>
             <line>
               <![CDATA[Test Method resides in mycode.LoginTest]]>
@@ -51,8 +51,8 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- wrongCredentialsTest -->
-        <test-method status="PASS" signature="loginAndLogoutTest()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="loginAndLogoutTest" duration-ms="14954" started-at="2016-07-01T15:49:02Z" depends-on-methods="mycode.LoginTest.wrongCredentialsTest" finished-at="2016-07-01T15:49:17Z">
+        </test-method> <!-- wrongCredentialsTest_2 -->
+        <test-method status="PASS" signature="loginAndLogoutTest_3()[pri:0, instance:mycode.LoginTest@c038203]" name="loginAndLogoutTest_3" duration-ms="14667" started-at="2016-07-05T14:50:20Z" depends-on-methods="mycode.LoginTest.wrongCredentialsTest_2" finished-at="2016-07-05T14:50:35Z">
           <reporter-output>
             <line>
               <![CDATA[Test Method resides in mycode.LoginTest]]>
@@ -61,8 +61,8 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginAndLogoutTest -->
-        <test-method status="PASS" signature="teadown()[pri:0, instance:mycode.LoginTest@6767c1fc]" name="teadown" is-config="true" duration-ms="0" started-at="2016-07-01T15:49:17Z" finished-at="2016-07-01T15:49:17Z">
+        </test-method> <!-- loginAndLogoutTest_3 -->
+        <test-method status="PASS" signature="teadown()[pri:0, instance:mycode.LoginTest@c038203]" name="teadown" is-config="true" duration-ms="1003" started-at="2016-07-05T14:50:36Z" finished-at="2016-07-05T14:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teadown -->
